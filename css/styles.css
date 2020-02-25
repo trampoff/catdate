@@ -1,0 +1,141 @@
+body{
+  font-family:"Montserrat";
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat" ;
+  font-weight: 900;
+}
+p {
+color: #8f8f8f;
+}
+/* Headings */
+.big-heading {
+  font-family: "Montserrat" ;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid {
+padding: 7% 15% ;
+}
+/* Section */
+.colored-section {
+  background-color: #c295d8;
+  color:#fff;
+}
+.white-section {
+  background-color: #fff;
+}
+#features {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.navbar {
+  padding:0 0 4.5rem;
+  }
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+/* Title image */
+.title-cat{
+  transform: rotate(25deg);
+  width: 60%;
+  position:absolute;
+  right: 30%;
+}
+/* Fetures */
+.feature-box {
+  padding: 5%;
+}
+.icon {
+  color: #e4a3d4;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #c295d8;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+/* Testimonial Section */
+#testimonials {
+  background-color: #e4a3d4;
+  color: #fff;
+}
+.testomonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#press {
+  background-color: #e4a3d4;
+
+  padding: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Cta Section */
+
+
+
+/* Footer */
+
+.social {
+  margin:  20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-cat{
+    transform: rotate(0);
+    position:static;
+    right: 30%;
+  }
+}
